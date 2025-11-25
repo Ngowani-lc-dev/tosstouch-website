@@ -37,7 +37,7 @@
     border-radius: 20px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     padding: 10px 12px 10px 15px ;
-    line-height: 1.2; /* tighter text spacing */
+    line-height: 1.2;
     height: 140px;
     position: relative;
     display: inline-block;
@@ -127,7 +127,7 @@ font-size: 30px;
 aside .more {
   margin-top: 20px;
 }
-/* Card-style container */
+
 .more {
   background: #2b2b2b;
   padding: 25px;
@@ -139,15 +139,15 @@ aside .more {
   margin-top: 20px;
 }
 
-/* Title */
+
 .more h2 {
   font-size: 30px;
   margin-bottom: 20px;
   text-align: left;
-  color: #e066cc; /* salon pink */
+  color: #e066cc; 
 }
 
-/* Each line */
+
 .more p {
   font-size: 22px;
   margin: 15px 0;
@@ -158,28 +158,26 @@ aside .more {
   border-radius: 10px;
 }
 
-/* Icons — bigger + color per item */
-.more p:nth-child(2) i { color: #ffb703; }   /* Walk-ins welcome (gold) */
-.more p:nth-child(3) i { color: #4cc9f0; }   /* Credit cards (blue) */
-.more p:nth-child(4) i { color: #06d6a0; }   /* Wi-Fi (green) */
-.more p:nth-child(5) i { color: #f72585; }   /* Woman-owned (pink) */
-.more p:nth-child(6) i { color: #ff8fab; }   /* Open to All (soft pink) */
+
+.more p:nth-child(2) i { color: #ffb703; }   
+.more p:nth-child(3) i { color: #4cc9f0; }   
+.more p:nth-child(4) i { color: #06d6a0; }   
+.more p:nth-child(6) i { color: #ff8fab; }   
 
 .more p i {
   margin-right: 12px;
-  font-size: 26px; /* bigger icons */
+  font-size: 26px; 
   transition: 0.3s ease;
 }
 
 
-/* Hover effect: glow + rise */
 .more p:hover {
   background: rgba(255, 255, 255, 0.08);
   transform: translateX(10px);
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
-/* Icon spin on hover */
+
 .more p:hover i {
   transform: rotate(15deg) scale(1.2);
 }
@@ -196,33 +194,65 @@ aside .more {
   text-align: center;
 }
 
-/* Mobile phones */
+
 @media (max-width: 480px) {
   .braids {
-    width: 95%;          /* almost full width but with small margins */
-    height: auto;        /* adjust to content */
-    padding: 8px 12px;   /* reduce internal spacing */
-    border-radius: 15px; /* slightly smaller corners */
+    width: 95%;        
+    height: auto;       
+    padding: 8px 12px;   
+    border-radius: 15px; 
     margin: 10px auto;
-    font-size: 0.85rem;  /* scale down text */
+    font-size: 0.85rem;  
   }
 
   .braids h4 {
-    font-size: 1rem;     /* smaller title */
+    font-size: 1rem;   
     margin-bottom: 3px;
   }
 
   .braids .time,
   .braids .price {
-    font-size: 0.8rem;   /* smaller text */
+    font-size: 0.8rem;  
     margin-bottom: 2px;
   }
 
   .braids button {
-    padding: 5px 10px;   /* smaller button */
+    padding: 5px 10px;  
     font-size: 0.75rem;
     border-radius: 12px;
   }
+
+
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 10px;
+    float: none;
+    margin-top: 40px;
+    height: auto;
+  }
+
+  aside .address1 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  aside {
+    padding-left: 5px;
+  }
+
+  aside .address1 {
+    font-size: 16px;
+  }
+
+  aside .address1 a i {
+    font-size: 24px; 
+  }
+}
+
 }
 
 
@@ -259,7 +289,7 @@ aside .more {
   <h4>Braids</h4>
   <p class="time">3 - 4 hours</p>
   <p class="price">From R350.00</p>
-  <a href="tosstouch3.html#contact" class="book-btn">
+  <a href="index.html#contact" class="book-btn">
   <button type="button">Book</button>
   </a>
 </div>
@@ -268,7 +298,7 @@ aside .more {
       <h4>Twists</h4>
       <p class="time">3 - 4 hours</p>
       <p class="price">From R350.00</p>
-       <a href="tosstouch3.html#contact" class="book-btn">
+       <a href="index.html#contact" class="book-btn">
       <button type="button" >Book</button>
       </a>
     </div>
@@ -277,7 +307,7 @@ aside .more {
   <h4>Straight back/up</h4>
   <p class="time">2 hours</p>
   <p class="price">From R200.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -286,7 +316,7 @@ aside .more {
   <h4>Free hand</h4>
   <p class="time">1 - 2 hours</p>
   <p class="price">From R150.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -295,7 +325,7 @@ aside .more {
   <h4>Weaves</h4>
   <p class="time">2 - 3 hours</p>
   <p class="price">From R300.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -304,7 +334,7 @@ aside .more {
   <h4>Hair-coloring</h4>
   <p class="time">2 hours</p>
   <p class="price">From R200.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -313,7 +343,7 @@ aside .more {
   <h4>Wash and blow</h4>
   <p class="time">1 hour</p>
   <p class="price">From R80.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -322,7 +352,7 @@ aside .more {
   <h4>Eyelashes</h4>
   <p class="time">1 hour</p>
   <p class="price">From R200.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
    </a>
 </div>
@@ -331,7 +361,7 @@ aside .more {
   <h4>Manicure</h4>
   <p class="time">1 - 2 hours</p>
   <p class="price">From R200.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">  
+   <a href="index.html#contact" class="book-btn">  
    <button type="button" >Book</button>
    </a>
 </div>
@@ -340,7 +370,7 @@ aside .more {
   <h4>Pedicure</h4>
   <p class="time">1 - 2 hours</p>
   <p class="price">From R200.00</p>
-   <a href="tosstouch3.html#contact" class="book-btn">
+   <a href="index.html#contact" class="book-btn">
    <button type="button">Book</button>
 </a>
 </div>
