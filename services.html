@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+  box-sizing: border-box;
+
+}
+.Services{
+    width: 100%;
+    background-color: black;
+     padding: 40px 0;
+}
+.Services h1{
+    color: rgb(172, 118, 162);
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    
+}
+.service-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.braids{
+    width: 650px;
+    background-color: rgb(246, 234, 246);
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 12px 10px 15px ;
+    line-height: 1.2; /* tighter text spacing */
+    height: 140px;
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+     margin-left: 15px;
+    
+}
+.braids h4{
+    color: #0b0707;
+    margin-left: 50px;
+    margin-top: 8px;
+    font-size: 1rem ;
+     margin-bottom: 2px;
+   
+}
+.braids .time{
+    color: #0b0707;
+  background-color: transparent;
+   margin-left: 50px;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+.braids .price{
+    color: #0b0707;
+    margin-left: 20px;
+     margin-left: 50px;
+     margin-bottom: 0px;
+     font-size:  0.85rem;
+}
+.braids button{
+    color: white;
+    background-color: rgb(13, 13, 13);
+    padding: 5px 25px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    transform: 0.3s ease;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 0;
+    display: block;
+    margin-bottom: 100px;
+  
+}
+.braids button:hover {
+  background-color: #867581;
+  transform: scale(1.05);
+}
+.braids:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: normal;
+  background-color: rgb(34, 33, 33);
+  height: 1600px;
+  margin-top: 130px;
+}
+ aside .address1{
+  color: white;
+  font-size: 20px;
+  display: flex-end;
+}
+ aside .address1 p i{
+color: #edecf1;
+}
+ aside .address1 p a{
+  color: whitesmoke;
+   
+}
+aside .address1 a.facebook i{
+color: #1877F2;
+font-size: 30px;
+}
+aside .address1 a.instagram i{
+font-size: 30px;
+ color: #C13584; 
+}
+aside .address1 a.whatsapp i{
+color: #25D366;
+font-size: 30px;
+}
+aside .more {
+  margin-top: 20px;
+}
+/* Card-style container */
+.more {
+  background: #2b2b2b;
+  padding: 25px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+
+/* Title */
+.more h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #e066cc; /* salon pink */
+}
+
+/* Each line */
+.more p {
+  font-size: 22px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+/* Icons — bigger + color per item */
+.more p:nth-child(2) i { color: #ffb703; }   /* Walk-ins welcome (gold) */
+.more p:nth-child(3) i { color: #4cc9f0; }   /* Credit cards (blue) */
+.more p:nth-child(4) i { color: #06d6a0; }   /* Wi-Fi (green) */
+.more p:nth-child(5) i { color: #f72585; }   /* Woman-owned (pink) */
+.more p:nth-child(6) i { color: #ff8fab; }   /* Open to All (soft pink) */
+
+.more p i {
+  margin-right: 12px;
+  font-size: 26px; /* bigger icons */
+  transition: 0.3s ease;
+}
+
+
+/* Hover effect: glow + rise */
+.more p:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateX(10px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Icon spin on hover */
+.more p:hover i {
+  transform: rotate(15deg) scale(1.2);
+}
+.summary h2{
+  color: #e066cc;
+  font-size: 2rem;
+}
+.summary button{
+  color:hsl(240, 3%, 7%);
+  background-color: #d7ccd5;
+  padding: 10px 70px 10px 70px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .braids {
+    width: 95%;          /* almost full width but with small margins */
+    height: auto;        /* adjust to content */
+    padding: 8px 12px;   /* reduce internal spacing */
+    border-radius: 15px; /* slightly smaller corners */
+    margin: 10px auto;
+    font-size: 0.85rem;  /* scale down text */
+  }
+
+  .braids h4 {
+    font-size: 1rem;     /* smaller title */
+    margin-bottom: 3px;
+  }
+
+  .braids .time,
+  .braids .price {
+    font-size: 0.8rem;   /* smaller text */
+    margin-bottom: 2px;
+  }
+
+  .braids button {
+    padding: 5px 10px;   /* smaller button */
+    font-size: 0.75rem;
+    border-radius: 12px;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+<Form class="Services">
+  <aside>
+   
+ <div class="address1">
+        <address> <p><i class="fas fa-map-marker-alt"></i> 26 Victoria Road Mowbray, Cape Town.</p>
+            <p>  <a href="tel:+27813644946"><i class="fas fa-phone"></i> +27 81 364 4946</a></p>
+             <p> <a href="mailto:Tosstouch08@gmail.com"><i class="fas fa-envelope"></i> Tosstouch08@gmail.com</a></p>
+             <a href="https://www.facebook.com/pages/Toss%20Touch%20Hair%20Point/294508034491716/#" class="facebook" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/toss_touch/" class="instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+     <a href="HTTPS://wa.me/27619173175" class="whatsapp" title ="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#HTTPS://wa.me/27813644946" class="whatsapp" title ="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </address>
+ </div> 
+ <div class="more">
+  <h2> Amenities and More</h2>
+ <p><i class="fas fa-door-open"></i> Walk-ins welcome</p>
+  <p><i class="fas fa-credit-card"></i> Accepts credit cards</p>
+  <p><i class="fas fa-wifi"></i> Free Wi-Fi</p>
+  <p><i class="fas fa-female"></i> Woman-owned</p>
+  <p><i class="fas fa-users"></i> Open to All</p> 
+ </div>
+
+  
+</aside>
+    <h1>Our Services</h1>
+    <div class="service-container">
+ <div class="braids">
+  <h4>Braids</h4>
+  <p class="time">3 - 4 hours</p>
+  <p class="price">From R350.00</p>
+  <a href="tosstouch3.html#contact" class="book-btn">
+  <button type="button">Book</button>
+  </a>
+</div>
+
+<div class="braids">
+      <h4>Twists</h4>
+      <p class="time">3 - 4 hours</p>
+      <p class="price">From R350.00</p>
+       <a href="tosstouch3.html#contact" class="book-btn">
+      <button type="button" >Book</button>
+      </a>
+    </div>
+
+<div class="braids">
+  <h4>Straight back/up</h4>
+  <p class="time">2 hours</p>
+  <p class="price">From R200.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Free hand</h4>
+  <p class="time">1 - 2 hours</p>
+  <p class="price">From R150.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+ <div class="braids">
+  <h4>Weaves</h4>
+  <p class="time">2 - 3 hours</p>
+  <p class="price">From R300.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Hair-coloring</h4>
+  <p class="time">2 hours</p>
+  <p class="price">From R200.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Wash and blow</h4>
+  <p class="time">1 hour</p>
+  <p class="price">From R80.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Eyelashes</h4>
+  <p class="time">1 hour</p>
+  <p class="price">From R200.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Manicure</h4>
+  <p class="time">1 - 2 hours</p>
+  <p class="price">From R200.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">  
+   <button type="button" >Book</button>
+   </a>
+</div>
+
+<div class="braids">
+  <h4>Pedicure</h4>
+  <p class="time">1 - 2 hours</p>
+  <p class="price">From R200.00</p>
+   <a href="tosstouch3.html#contact" class="book-btn">
+   <button type="button">Book</button>
+</a>
+</div>
+</div>
+    </Form> 
+
+</body>
+</html>
