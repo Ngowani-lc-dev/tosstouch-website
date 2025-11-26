@@ -12,7 +12,7 @@ The project contains the following files and folders:
 - `index.html` – Home page  
 - `services.html` – Services page  
 - `contact.html` – Contact page  
-- `styles.css` – Main stylesheet  
+- `tosstouch.css` – Main stylesheet  
 - `script.js` – JavaScript file (if interactions are needed)  
 - `assets/` – Folder containing images and any other media  
 - `README.md` – Project documentation  
@@ -29,8 +29,7 @@ Visit the live website here:
 ##  About the Project
 
 This project is a simple front-end website designed to present:
-
-- A hero banner with text overlay  
+ 
 - About section  
 - Services offered  
 - Contact form and business information  
