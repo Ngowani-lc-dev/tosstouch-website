@@ -70,3 +70,12 @@ Feedback is appreciated as this project is part of my learning journey.
 ```bash
 git clone git@github.com:Ngowani-lc-dev/tosstouch-website.git
 
+```
+
+## License
+This project is open-source under the MIT License.
+
+## Author
+Lucy Ngowani  
+GitHub: https://github.com/Ngowani-lc-dev
+Location: Cape Town, South Africa
